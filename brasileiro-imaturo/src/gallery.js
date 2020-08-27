@@ -8,10 +8,6 @@ const listOfImages = importAll(require.context('./assets', false, /\.(png|jpe?g|
 
 class Gallery extends React.Component {
 
-    importAll(r) {
-        return r.keys().map(r);
-    }
-
     render() {
 
         return (
